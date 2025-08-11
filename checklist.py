@@ -1,4 +1,4 @@
-# checklist.py
+#checklist.py
 REQUIRED = {
   "Company Incorporation": [
       "Articles of Association",

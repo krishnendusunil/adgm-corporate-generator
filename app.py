@@ -5,9 +5,7 @@ import json
 import os
 import shutil
 
-# Make sure reviewer.py is in same folder and provides:
-# analyze_single_file(path, output_dir="reviewed")
-# analyze_uploads_folder(uploads_dir="uploads")  # optional
+
 from reviewer import analyze_single_file, analyze_uploads_folder, UPLOADS_DIR, REVIEWED_DIR, REPORTS_DIR
 
 st.set_page_config(page_title="ADGM Corporate Agent — Reviewer", layout="wide")
